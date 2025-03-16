@@ -1,0 +1,117 @@
+.welcome__container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 50px;
+
+   
+
+    
+
+    .partners-welcome-block__items{        
+        flex-direction: column;
+        gap:5px;
+        padding-top: 100px;        
+    }
+
+    .body-welcome-block__image img{       
+        position: relative;
+        left: 805px;
+        bottom: 805px;
+        width: 543px;
+        height: 534px;
+     
+    }
+    .content-welcome-block__body{
+        position: relative;
+        bottom: 375px;
+        left: 150px;
+    }
+
+
+    .content-welcome-block__title{      
+         width: 504px;
+        height: 164px;
+        padding-left: 165px; 
+        top: 100px;
+        font-family: Outfit;
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 72px;
+        text-align: left;
+        text-transform: capitalize;
+
+    }
+
+    .colortext{
+        color: rgb(255, 92, 0);
+    }
+
+    .content-welcome-block__text{       
+        width: 521px;
+        height: 60px;
+        padding-left: 165px;                
+        color: rgb(255, 255, 255);
+        font-family: Public Sans;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 30px;letter-spacing: 0%;
+        text-align: left;
+    }
+
+    .form-welcome-block__link{
+        position: relative;
+        display: flex;
+        bottom: 355px;
+        left: 150px;
+        gap: 53px;
+        padding-left: 165px;
+        padding-top: 36px;
+    }
+
+
+    .form-welcome-block__button{
+        width: 160px;
+        height: 50px;
+        left: 300px;
+        top: 625px;
+        border-radius: 4px;
+        background: rgb(254, 70, 28);
+        color: rgb(255, 255, 255);
+        font-family: Outfit;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: capitalize;
+        cursor: pointer;
+    }
+
+    .form-welcome-block__button:hover{
+        background-color:#b9473a;
+    }
+
+    .header-block__button{
+        width: 160px;
+        height: 50px;
+        left: 300px;
+        top: 625px;
+        border-radius: 4px;
+        color: rgb(255, 255, 255);
+        font-family: Outfit;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: capitalize;
+        background-color:rgb(31, 34, 53);
+        cursor: pointer;
+    }
+
+    .header-block__button:hover{
+        background-color:#202552;
+    }
+
+
+}
