@@ -1,8 +1,5 @@
 
-.page__about{
-  
-  
-}
+
 .about__container{
     max-width: 1400px;
     margin: 0 auto;
@@ -15,38 +12,95 @@
         position: relative;
         bottom: 375px;
     
-       
-
+    
     }
 
     .image-about__item{
         display: flex;
+        padding-top: 100px;
         width: 500px;
-        height: 470px;
-        margin-top: 10px;
-
-
+        height: 470px;    
     }
 
     .about__content{
-        display: flex;
-        
-        
+        display: flex;        
     }
 
-    .content-about__body{
-       top: 300px;
+    .content-about__body{       
+       margin-left: 100px;
+       top
     }
 
-    .content-about__title{}
+    .content-about__title{
+        color: rgb(255, 255, 255);
+font-family: Outfit;
+font-size: 36px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+    }
 
-    .content-about__text{}
+    .content-about__text{
+        width: 524px;
+        height: 130px;
+        color: rgb(255, 255, 255);
+        font-family: Public Sans;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
 
     .content-about__options{
         display: grid;
-        gap: 35px;
+        gap: 25px;
         grid-template-columns: repeat(2, 1fr);
         margin-bottom: 55px;
+    }
+
+    .options-content-about__label{
+        width: 300px;
+        margin-bottom: 12px;
+        color: rgb(255, 255, 255);
+font-family: Outfit;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+    }
+
+    .content-about__link{
+        display: flex;
+        bottom: 355px;
+        left: 150px;
+        gap: 53px;
+        padding-left: 165px;
+        padding-top: 36px;
+    }
+
+    .about__button{
+        width: 160px;
+        height: 50px;
+        left: 300px;
+        top: 625px;
+        border-radius: 4px;
+        background: rgb(254, 70, 28);
+        color: rgb(255, 255, 255);
+        font-family: Outfit;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: capitalize;
+        cursor: pointer;
+    }
+
+    .about__button:hover{
+        background-color:#b9473a;
     }
 
 

@@ -1,0 +1,27 @@
+.portfoio__container{
+    max-width: 1400px;
+    margin: 0 auto;
+    
+
+    .body-portfolio__content{
+        display: flex;
+        justify-content: center;
+      
+        
+    }
+
+    .portfolio-body__title{
+        display: flex;
+        flex-direction: row;
+        color: rgb(255, 255, 255);
+font-family: Outfit;
+font-size: 36px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+align-items: center;
+    }
+
+   
+}
