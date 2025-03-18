@@ -68,7 +68,7 @@
 }
 
 .welcome__container {
-  max-width: 1440px;
+  max-width: 1400px;
   margin: 0 auto;
   padding-top: 50px;
 }
@@ -167,13 +167,15 @@
 }
 
 .about__container {
-  max-width: 1440px;
+  max-width: 1400px;
   margin: 0 auto;
   top: 50px;
 }
 .about__container .about__body {
   display: flex;
   top: 50px;
+  position: relative;
+  bottom: 375px;
 }
 .about__container .image-about__item {
   display: flex;
@@ -186,4 +188,10 @@
 }
 .about__container .content-about__body {
   top: 300px;
+}
+.about__container .content-about__options {
+  display: grid;
+  gap: 35px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 55px;
 }/*# sourceMappingURL=style.css.map */

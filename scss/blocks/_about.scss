@@ -4,7 +4,7 @@
   
 }
 .about__container{
-    max-width: 1440px;
+    max-width: 1400px;
     margin: 0 auto;
     top: 50px;
   
@@ -12,6 +12,9 @@
     .about__body{
         display: flex;
         top: 50px;
+        position: relative;
+        bottom: 375px;
+    
        
 
     }
@@ -28,6 +31,7 @@
     .about__content{
         display: flex;
         
+        
     }
 
     .content-about__body{
@@ -37,6 +41,13 @@
     .content-about__title{}
 
     .content-about__text{}
+
+    .content-about__options{
+        display: grid;
+        gap: 35px;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 55px;
+    }
 
 
 }
