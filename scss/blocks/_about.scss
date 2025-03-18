@@ -1,0 +1,42 @@
+
+.page__about{
+  
+  
+}
+.about__container{
+    max-width: 1440px;
+    margin: 0 auto;
+    top: 50px;
+  
+    
+    .about__body{
+        display: flex;
+        top: 50px;
+       
+
+    }
+
+    .image-about__item{
+        display: flex;
+        width: 500px;
+        height: 470px;
+        margin-top: 10px;
+
+
+    }
+
+    .about__content{
+        display: flex;
+        
+    }
+
+    .content-about__body{
+       top: 300px;
+    }
+
+    .content-about__title{}
+
+    .content-about__text{}
+
+
+}

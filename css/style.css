@@ -72,6 +72,11 @@
   margin: 0 auto;
   padding-top: 50px;
 }
+.welcome__container .content-welcome-block__body {
+  position: relative;
+  bottom: 375px;
+  left: 150px;
+}
 .welcome__container .partners-welcome-block__items {
   flex-direction: column;
   gap: 5px;
@@ -83,11 +88,6 @@
   bottom: 805px;
   width: 543px;
   height: 534px;
-}
-.welcome__container .content-welcome-block__body {
-  position: relative;
-  bottom: 375px;
-  left: 150px;
 }
 .welcome__container .content-welcome-block__title {
   width: 504px;
@@ -164,4 +164,26 @@
 }
 .welcome__container .header-block__button:hover {
   background-color: #202552;
+}
+
+.about__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  top: 50px;
+}
+.about__container .about__body {
+  display: flex;
+  top: 50px;
+}
+.about__container .image-about__item {
+  display: flex;
+  width: 500px;
+  height: 470px;
+  margin-top: 10px;
+}
+.about__container .about__content {
+  display: flex;
+}
+.about__container .content-about__body {
+  top: 300px;
 }/*# sourceMappingURL=style.css.map */
