@@ -967,4 +967,23 @@
   line-height: 30px;
   text-align: left;
 }
+
+.footer__container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.footer__container .footer__image img {
+  width: 1169px;
+  height: 550px;
+  margin-left: 100px;
+  margin-top: 80px;
+}
+.footer__container .footer__designed {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-top: 155px;
+}
 /*# sourceMappingURL=style.css.map */
