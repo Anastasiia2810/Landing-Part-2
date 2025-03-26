@@ -906,25 +906,17 @@
   letter-spacing: 0%;
   text-align: center;
 }
-.contact__container .body-contact-block__content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 400px;
-}
 .contact__container .contact__items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 400px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-column-gap: 70px;
+     -moz-column-gap: 70px;
+          column-gap: 70px;
   padding-left: 70px;
   margin-top: 50px;
 }
@@ -937,14 +929,48 @@
       -ms-flex-direction: column;
           flex-direction: column;
   width: 368px;
-  -webkit-column-gap: 60px;
-     -moz-column-gap: 60px;
-          column-gap: 60px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  height: 117px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 8px;
   background: rgb(36, 38, 59);
+}
+.contact__container .item-contact__photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 10px;
+  width: 70px;
+  height: 70px;
+}
+.contact__container .item-contact__icon {
+  width: 70px;
+  height: 70px;
+  background: rgb(36, 38, 59);
+}
+.contact__container .item-contact__title {
+  margin-left: 120px;
+  color: rgb(255, 255, 255);
+  font-family: Outfit;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+}
+.contact__container .item-contact__text {
+  width: 224px;
+  height: 48px;
+  color: rgb(255, 255, 255);
+  font-family: Public Sans;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 100px;
 }
 .contact__container .body-contact__content {
   display: -webkit-box;
@@ -955,7 +981,8 @@
       -ms-flex-direction: column;
           flex-direction: column;
   margin-left: 700px;
-  top: 250px;
+  width: 700px;
+  height: 434px;
 }
 .contact__container .body-contact-content__title1 {
   width: 174px;

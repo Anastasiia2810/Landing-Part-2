@@ -4,7 +4,7 @@
 
     .contact__body{
         display: flex;        
-       flex-direction: column;       
+        flex-direction: column;      
         margin-top: 100px;
     }
 
@@ -22,42 +22,102 @@
 
     }
 
-    .body-contact-block__content{
-        display: flex;
-        flex-direction: column;
-        width: 400px;
-    }
 
     .contact__items{
-        display: flex;
-        width: 400px;
-        flex-direction: column;              
+        display: flex;        
+        flex-direction: column;
+        column-gap: 70px;              
         padding-left: 70px;
         margin-top: 50px;
        
-    }
-
-    .contact__item{       
-        display: flex;
-        flex-direction: column;
-        width: 368px;       
-        column-gap: 60px;
-        box-sizing: border-box;
-        border: 1px solid rgba(255, 255, 255, 0.2);
-        border-radius: 8px;
-        background: rgb(36, 38, 59);
-    }
-
-    .body-contact__content{
-        display: flex;
-        flex-direction: column;
-        margin-left: 700px;
-       top: 250px;
+        
        
     }
 
-    .body-contact-content__title1{
-        width: 174px;
+    .contact__item{ 
+        display: flex;   
+        flex-direction: column; 
+        width: 368px;       
+        height: 117px;        
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 8px;
+        background: rgb(36, 38, 59);
+       
+    }
+
+    
+    
+
+    .item-contact__photo{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        width: 70px;
+        height: 70px;
+    }
+
+
+
+    .item-contact__icon{
+        width: 70px;
+        height: 70px;        
+        background: rgb(36, 38, 59);        
+    }
+
+    .item-contact__title{
+        margin-left: 120px;
+        
+
+color: rgb(255, 255, 255);
+font-family: Outfit;
+font-size: 24px;
+font-weight: 600;
+line-height: 30px;
+text-align: left;
+    }
+
+    .item-contact__text{
+        width: 224px;
+height: 48px;
+color: rgb(255, 255, 255);
+font-family: Public Sans;
+font-size: 16px;
+font-weight: 300;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 100px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.body-contact__content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 700px;  
+   width: 700px;
+   height: 434px;
+   
+}
+
+
+.body-contact-content__title1{
+    width: 174px;
 height: 26px;
 color: rgb(255, 255, 255);
 font-family: Outfit;
@@ -66,8 +126,6 @@ font-weight: 600;
 line-height: 30px;
 text-align: left;
 
-    }
-
-
+}
 
 }
