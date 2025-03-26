@@ -1,4 +1,10 @@
-@import "./blocks/_header.scss";
-@import "./blocks/_welcome.scss";
-@import "./blocks/_about.scss";
-@import "./blocks/_portfolio.scss";
+@use "./blocks/header";
+@use "./blocks/welcome";
+@use "./blocks/about";
+@use "./blocks/portfolio";
+@use "./blocks/why";
+@use "./blocks/skill";
+@use "./blocks/testimonial";
+@use "./blocks/blog";
+@use "./blocks/subscribe";
+@use "./blocks/contact";
