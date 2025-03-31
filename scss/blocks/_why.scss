@@ -1,5 +1,3 @@
-
-
 .why__container{
     max-width: 1400px;
     margin: 0 auto;
@@ -88,7 +86,90 @@
         padding-top: 27px;        
     }
 
+    @media (min-width: 320px) and (max-width: 480px) {
+        .why__container{
+            max-width: 450px;
+            margin: 0 auto;
+        }
+               
+        
+        .content-why-block__body{
+            display: flex;
+            flex-direction: column;
+            margin-left: 50px;
+            margin-top: 50px;        
+        }
+        
+        
+        .why__items{
+            display: flex;        
+            flex-direction: column;
+            margin-left: 50px;
+        }
+        
+     }
 
+     @media (min-width: 481px) and (max-width: 768px) {
+        .why__container{
+            max-width: 700px;
+            margin: 0 auto;
+        }
+               
+        
+        .content-why-block__body{
+            display: flex;
+            flex-direction: column;
+            margin-left: 200px;
+            margin-top: 50px;        
+        }
+        
+        
+        .why__items{
+            display: flex;        
+            flex-direction: column;
+            margin-left: 200px;
+        }
+     }
 
+     @media (min-width: 769px) and (max-width: 1024px) {
+        .why__container{
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+               
+        
+        .content-why-block__body{
+            display: flex;
+            flex-direction: column;
+            margin-left: -70px;
+                   
+        }
+
+        .content-why-block__title{
+            display: flex;
+            flex-direction: column;        
+        }
+         
+        .why__items{
+            display: grid;        
+            grid-template-columns: repeat(4,1fr);             
+            justify-content: center;
+            width: 1000px;
+            margin-left: 20px;
+        }
+
+        .why__item{
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+            height: 360px;
+            column-gap: 20px;      
+        }
+
+        .item-why__text{
+            width: 200px;
+            height: 72px;    
+        }
+     }
 
 }

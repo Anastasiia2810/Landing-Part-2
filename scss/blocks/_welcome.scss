@@ -40,7 +40,7 @@
     }
 
     .colortext{
-        color: rgb(255, 92, 0);
+        color: $primary-color;
     }
 
     .content-welcome-block__text{       
@@ -73,7 +73,7 @@
         left: 300px;
         top: 625px;
         border-radius: 4px;
-        background: rgb(254, 70, 28);
+        background:$primary-color;
         color: rgb(255, 255, 255);
         font-family: Outfit;
         font-size: 16px;
@@ -86,7 +86,7 @@
     }
 
     .form-welcome-block__button:hover{
-        background-color:#b9473a;
+        background-color: $additional-color;
     }
 
     .header-block__button{
@@ -108,8 +108,157 @@
     }
 
     .header-block__button:hover{
-        background-color:#202552;
+        background-color:$secondary-color;
     }
 
+    
+    @media (min-width: 320px) and (max-width: 480px) {
+
+        .welcome__container{
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+        }
+
+        .welcome-block__body{
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            padding-left: 10px;
+        }
+
+        .partners-welcome-block__items{
+            display: flex;
+            flex-direction: column;
+            max-width: 350px;
+           
+        }
+
+        .body-welcome-block__image img{
+            display: flex;
+            flex-direction: column;
+            padding-left: 10px;
+            width: 380px;
+            height: 350px;
+        }
+
+        .body-welcome-block__content,
+        .content-welcome-block__body{
+            display: flex;
+            flex-direction: column;
+            padding-left: 10px;
+        }
+        
+        .content-welcome-block__title{
+            display: flex;
+            flex-direction: column;
+            padding-left: 10px;
+            padding-bottom: 70px;
+            width: 400px;
+
+        }
+
+        .content-welcome-block__text{
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+            padding-left: 10px;
+        }
+
+        .form-welcome-block__link{
+            display: flex;
+            flex-direction: column;
+            padding-left: 120px;
+        }
+    }
+
+    @media (min-width: 481px) and (max-width: 768px) {
+        .welcome__container{
+            display: flex;
+            flex-direction: column;
+            max-width: 750px;
+        }
+                  
+       
+        .body-welcome-block__content,
+        .content-welcome-block__body{
+            display: flex;
+            flex-direction: column;
+        }
+           
+        
+        .body-welcome-block__image img{       
+            display: flex;                     
+            margin-left: -175px;
+            width: 250px;
+            height: 250px;
+            padding-top: 160px;
+        }
+          
+        
+        .content-welcome-block__title{  
+            display: flex; 
+            flex-direction: column;
+            padding-left: 20px;
+            padding-top: 50px;                 
+        }
+        
+                
+        .content-welcome-block__text{ 
+            display: flex; 
+            flex-direction: column;
+            margin-left: 20px;     
+            padding-top: 80px;
+            padding-left: 10px;
+                                            
+        }
+        
+        .form-welcome-block__link{            
+            display: flex;
+            bottom: 355px;
+            left: 150px;
+            gap: 53px;
+            padding-left: 20px;
+            padding-top: 36px;
+        }
+        
+    }
+
+    @media (min-width: 769px) and (max-width: 1024px) {
+        .welcome__container{
+            display: flex;
+            flex-direction: column;
+            max-width: 1000px;
+        }
+                 
+        
+        .body-welcome-block__image img{       
+            display: flex;                     
+            margin-left: -75px;
+            width: 400px;
+            height: 400px;
+            padding-top: 100px;
+        }
+          
+        
+        .content-welcome-block__title{  
+            display: flex; 
+            flex-direction: column;
+            padding-left: 40px;
+            padding-top: 50px;                 
+        }
+        
+                
+        .content-welcome-block__text{ 
+            display: flex; 
+            flex-direction: column;
+            margin-left: 20px;  
+            padding-top: 80px;
+            padding-left: 10px;
+                                            
+        }
+
+    }
 
 }
+

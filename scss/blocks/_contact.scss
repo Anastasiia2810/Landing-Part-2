@@ -4,14 +4,15 @@
 
     .contact__body{
         display: flex;        
-        flex-direction: column;      
+        flex-direction: column;
+        align-items: center;
+        gap: 80px;      
         margin-top: 100px;
     }
 
     .body-contact__title{
         width: 274px;
-        height: 43px;
-        margin-left: 520px;
+        height: 43px;        
         color: rgb(255, 255, 255);
         font-family: Outfit;
         font-size: 36px;
@@ -22,110 +23,201 @@
 
     }
 
+    .body-contact__main{
+        display: flex;        
+        justify-content:space-around;
+        gap: 100px;
+        width: auto;
+        height: auto;
+    }
+
 
     .contact__items{
-        display: flex;        
+        display: flex;
         flex-direction: column;
-        column-gap: 70px;              
-        padding-left: 70px;
-        margin-top: 50px;
-       
-        
-       
+        gap: 20px;
+        width: 369px;
+        height: auto;      
     }
 
     .contact__item{ 
-        display: flex;   
-        flex-direction: column; 
+        display: flex; 
+        justify-content: space-between; 
         width: 368px;       
         height: 117px;        
         border: 1px solid rgba(255, 255, 255, 0.2);
         border-radius: 8px;
         background: rgb(36, 38, 59);
-       
-    }
-
-    
-    
-
-    .item-contact__photo{
-        display: flex;
-        flex-direction: column;
-        padding-left: 10px;
-        width: 70px;
-        height: 70px;
-    }
-
-
+    }        
 
     .item-contact__icon{
         width: 70px;
-        height: 70px;        
-        background: rgb(36, 38, 59);        
+        height: 70px;      
     }
 
-    .item-contact__title{
-        margin-left: 120px;
-        
+    .item-contact__info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 224px;
+        height: 100%;
+    }
 
-color: rgb(255, 255, 255);
-font-family: Outfit;
-font-size: 24px;
-font-weight: 600;
-line-height: 30px;
-text-align: left;
+    .item-contact__title{          
+        color: rgb(255, 255, 255);
+        font-family: Outfit;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: left;
     }
 
     .item-contact__text{
         width: 224px;
-height: 48px;
-color: rgb(255, 255, 255);
-font-family: Public Sans;
-font-size: 16px;
-font-weight: 300;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
-margin-left: 100px;
+        height: 48px;
+        color: rgb(255, 255, 255);
+        font-family: Public Sans;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;        
+        text-align: left;
+
+    }
+
+    .item-contact__text:hover{
+        color: rgb(242, 112, 38);
+    }
+
+    .body-contact__message{
+        display: flex;
+        justify-content: center;
+        width: 700px;
+        height: auto;
+
+    }
+
+    .contact-message__info{
+        display: flex;
+        gap: 30px;
+        margin-top: 24px;
+    }
+
+    .body-contact-message__title{
+        color: rgb(255, 255, 255);
+        font-family: Outfit;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+
+    .contact-message__input,
+    .form-contact__input{
+        width: 335px;
+        height: 56px;
+        box-sizing: border-box;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 8px;
+        background: rgb(36, 38, 59);
+        padding-left: 20px;
+        margin-bottom: 18px;
+        }
+
+    .form-contact__input{
+        width: 700px;
+        height: 210px;
+        padding-top: 15px;
+    }
+
+    .contact-message__button{
+        width: 220px;
+        height: 56px;
+        border-radius: 4px;
+        background: rgb(254, 70, 28);
+        color: rgb(255, 255, 255);
+        font-family: Outfit;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: capitalize;
+        cursor: pointer;
+    }
+
+    .contact-message__button:hover{
+        background-color: rgb(242, 112, 38);
+    }
+
+    .body-contact__image{
+        width: 1169px;
+        height: 550px;
+      
+    }
+
+    @media (min-width: 320px) and (max-width: 480px) {
+        .contact__container{
+            max-width: 450px;
+            margin: 0 auto;
+        }
+        
+        .contact__body{
+            display: flex;        
+            flex-direction: column;
+            gap: 80px;      
+            margin-top: 100px;
+        }
+        
+        .body-contact__main{
+            display: flex;        
+            flex-direction: column;
+            gap: 100px;
+            width: 450px;
+            height: auto;
+            margin-left: 60px;
+        }
+        
+        
+            .contact__items{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                width: 369px;
+                height: auto;      
+            }
+        
+            .body-contact__message{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 700px;
+                height: auto;
+            }
+        
+            .contact-message__info{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                margin-top: 24px;
+            }
+        
+            .form-contact__input{
+                width: 400px;
+                height: 210px;
+                padding-top: 15px;
+            }
+        
+            .body-contact__image img{
+                width: 400px;
+                height: 350px;
+                margin-left: 380px;
+            }
+    }
+
+    @media (min-width: 481px) and (max-width: 768px) {
+        
     }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.body-contact__content{
-    display: flex;
-    flex-direction: column;
-    margin-left: 700px;  
-   width: 700px;
-   height: 434px;
-   
-}
-
-
-.body-contact-content__title1{
-    width: 174px;
-height: 26px;
-color: rgb(255, 255, 255);
-font-family: Outfit;
-font-size: 24px;
-font-weight: 600;
-line-height: 30px;
-text-align: left;
-
-}
 
 }
