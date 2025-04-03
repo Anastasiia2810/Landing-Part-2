@@ -1,3 +1,4 @@
+@use "./blocks/variables";
 .about__container{
     max-width: 1400px;
     margin: 0 auto;
@@ -28,7 +29,7 @@
     }
 
     .content-about__title{
-        color:$style-color;
+        color:white;
         font-family: Outfit;
         font-size: 36px;
         font-weight: 600;
@@ -39,7 +40,7 @@
     .content-about__text{
         width: 524px;
         height: 130px;
-        color:$style-color;
+        color:white;
         font-family: Public Sans;
         font-size: 16px;
         font-weight: 300;
@@ -58,7 +59,7 @@
     .options-content-about__label{
         width: 300px;
         margin-bottom: 12px;
-        color: $style-color;
+        color: white;
         font-family: Outfit;
         font-size: 16px;
         font-weight: 500;
@@ -82,7 +83,7 @@
         top: 625px;
         border-radius: 4px;
         background: $primary-color;
-        color: $style-color;
+        color: white;
         font-family: Outfit;
         font-size: 16px;
         font-weight: 700;

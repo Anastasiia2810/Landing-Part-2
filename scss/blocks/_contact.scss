@@ -214,7 +214,62 @@
     }
 
     @media (min-width: 481px) and (max-width: 768px) {
+        .contact__container{
+            max-width: 750px;
+            margin: 0 auto;
+        }
         
+        .contact__body{
+            display: flex;        
+            flex-direction: column;
+            gap: 80px;      
+            margin-top: 100px;
+        }
+        
+        .body-contact__main{
+            display: flex;        
+            flex-direction: column;
+            gap: 100px;
+            width: 450px;
+            height: auto;
+            margin-left: 60px;
+        }
+        
+        
+            .contact__items{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                width: 369px;
+                height: auto;      
+            }
+        
+            .body-contact__message{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 700px;
+                height: auto;
+            }
+        
+            .contact-message__info{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                margin-top: 24px;
+            }
+        
+            .form-contact__input{
+                width: 400px;
+                height: 210px;
+                padding-top: 15px;
+            }
+        
+            .body-contact__image img{
+                width: 400px;
+                height: 350px;
+                margin-left: 380px;
+            }
     }
 
 

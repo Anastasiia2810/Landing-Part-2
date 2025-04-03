@@ -1,4 +1,3 @@
-$primary-color:rgb(254, 70, 28);
-$additional-color:rgb(242, 112, 38);
-$secondary-color:#202552;
-$style-color:rgb(255, 255, 255);
+@use "./blocks/variables";
+$primary-color:#f0691c;
+$additional-color:#f66b1b
