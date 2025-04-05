@@ -1,4 +1,4 @@
-@use "./blocks/variables";
+@use "variables";
 .about__container{
     max-width: 1400px;
     margin: 0 auto;
@@ -29,7 +29,7 @@
     }
 
     .content-about__title{
-        color:white;
+        color:variables.$text-color;
         font-family: Outfit;
         font-size: 36px;
         font-weight: 600;
@@ -40,7 +40,7 @@
     .content-about__text{
         width: 524px;
         height: 130px;
-        color:white;
+        color:variables.$text-color;
         font-family: Public Sans;
         font-size: 16px;
         font-weight: 300;
@@ -59,7 +59,7 @@
     .options-content-about__label{
         width: 300px;
         margin-bottom: 12px;
-        color: white;
+        color: variables.$text-color;
         font-family: Outfit;
         font-size: 16px;
         font-weight: 500;
@@ -82,8 +82,8 @@
         left: 300px;
         top: 625px;
         border-radius: 4px;
-        background: $primary-color;
-        color: white;
+        background:variables.$primary-color;
+        color: variables.$text-color;
         font-family: Outfit;
         font-size: 16px;
         font-weight: 700;
@@ -95,7 +95,7 @@
     }
 
     .about__button:hover{
-        background-color:$additional-color;
+        background-color:variables.$additional-color;
     }
 
     @media (min-width: 320px) and (max-width: 480px) {

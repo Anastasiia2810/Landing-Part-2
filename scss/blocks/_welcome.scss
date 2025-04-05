@@ -1,3 +1,4 @@
+@use "variables";
 .welcome__container{
     max-width: 1400px;
     margin: 0 auto;
@@ -7,10 +8,8 @@
     .welcome-block__body{
         display: flex;
     }
-   
 
     .partners-welcome-block__items{ 
-               
         flex-direction: column;
         gap:5px;
         padding-top: 100px;        
@@ -26,7 +25,7 @@
   
 
     .content-welcome-block__title{      
-         width: 504px;
+        width: 504px;
         height: 164px;
         padding-left: 165px; 
         top: 100px;
@@ -40,14 +39,14 @@
     }
 
     .colortext{
-        color: $primary-color;
+        color:variables.$primary-color;
     }
 
     .content-welcome-block__text{       
         width: 521px;
         height: 60px;
         padding-left: 165px;                
-        color: rgb(255, 255, 255);
+        color:variables.$text-color;
         font-family: Public Sans;
         font-size: 16px;
         font-weight: 500;
@@ -73,8 +72,8 @@
         left: 300px;
         top: 625px;
         border-radius: 4px;
-        background:$primary-color;
-        color: rgb(255, 255, 255);
+        background:variables.$primary-color;
+        color:variables.$text-color;
         font-family: Outfit;
         font-size: 16px;
         font-weight: 700;
@@ -86,7 +85,7 @@
     }
 
     .form-welcome-block__button:hover{
-        background-color: $additional-color;
+        background-color:variables.$additional-color;
     }
 
     .header-block__button{
@@ -95,7 +94,7 @@
         left: 300px;
         top: 625px;
         border-radius: 4px;
-        color: rgb(255, 255, 255);
+        color:variables.$text-color;
         font-family: Outfit;
         font-size: 16px;
         font-weight: 700;
@@ -103,12 +102,12 @@
         letter-spacing: 0%;
         text-align: center;
         text-transform: capitalize;
-        background-color:$secondary-color;
+        background-color:variables.$secondary-color;
         cursor: pointer;
     }
 
     .header-block__button:hover{
-        background-color:$secondary-color;
+        background-color:variables.$style-color;
     }
 
     

@@ -1,3 +1,4 @@
+@use "variables";
 .blog__container{
     max-width: 1400px;
     margin: 0 auto;
@@ -12,7 +13,7 @@
     .content-blog-block__title{
         width: 300px;
         height: 44px;
-        color: rgb(255, 255, 255);
+        color:variables.$text-color;
         font-family: Outfit;
         font-size: 36px;
         font-weight: 700;
@@ -47,7 +48,7 @@
         width: 345px;
         height: 29px;
         padding-top: 20px;
-        color: rgb(255, 255, 255);
+        color:variables.$text-color;
         font-family: Outfit;
         font-size: 24px;
         font-weight: 600;
@@ -60,7 +61,7 @@
         width: 340px;
         height: 48px;
         padding-top: 15px;
-        color: rgb(255, 255, 255);
+        color:variables.$text-color;
         font-family: Public Sans;
         font-size: 16px;
         font-weight: 300;

@@ -1,4 +1,5 @@
-.wrapper{ background-color:rgb(31, 34, 53);}
+@use "variables";
+.wrapper{ background-color:variables.$main-color;}
 
 
 .header__container{
@@ -33,8 +34,8 @@
         flex-direction: row;
         align-items: center;
         font-family: Outfit;
-        color:white;
-        font-size: 16px;
+        color:variables.$text-color;
+        font-size: 17px;
         font-weight: 700;
         line-height: 15px;
         font-family: Outfit;
@@ -58,7 +59,7 @@
     .header-block__button{
         width: 152px;
         height: 50px;
-        color: rgb(255, 255, 255);
+        color:variables.$text-color;
         font-family: Outfit;
         font-size: 16px;
         font-weight: 700;
@@ -66,14 +67,14 @@
         text-align: center;
         text-transform: capitalize;
         border-radius: 4px;
-        background: rgb(254, 70, 28);
+        background:variables.$primary-color;
         cursor: pointer;
         
 
     }
 
     .header-block__button:hover{
-        background-color: rgb(242, 112, 38);
+        background-color:variables.$additional-color;
     }
 
     .a:hover{

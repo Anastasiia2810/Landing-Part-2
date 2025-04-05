@@ -1,3 +1,4 @@
+@use "variables";
 .why__container{
     max-width: 1400px;
     margin: 0 auto;
@@ -15,7 +16,7 @@
         display: flex;
         align-items: center;
         flex-direction: row;
-        color: rgb(255, 255, 255);
+        color:variables.$text-color;
         font-family: Outfit;
         font-size: 36px;
         font-weight: 700;
@@ -37,7 +38,7 @@
         width: 307px;
         height: 360px;
         column-gap: 20px;
-        background-color: rgb(36, 38, 59);
+        background-color:variables.$secondary-color;
         border-radius: 8px;
     }
 
@@ -54,7 +55,7 @@
     .item-why__title{
         width: 173px;
         height: 21px;
-        color: rgb(255, 255, 255);
+        color:variables.$text-color;
         font-family: Outfit;
         font-size: 20px;
         font-weight: 600;
@@ -68,7 +69,7 @@
     .item-why__text{
     width: 238px;
     height: 72px;
-    color: rgb(255, 255, 255);
+    color:variables.$text-color;
     font-family: Public Sans;
     font-size: 16px;
     font-weight: 300;

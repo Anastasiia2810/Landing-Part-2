@@ -1,3 +1,4 @@
+@use "variables";
 .newsletter__container{
     max-width: 1400px;
     margin: 0 auto;
@@ -7,7 +8,7 @@
         width: 1320px;
         height: 450px;
         margin-left: 50px;
-        background: rgb(36, 38, 59);              
+        background:variables.$secondary-color;              
     }
 
     .body-newsletter__content{
@@ -25,7 +26,7 @@
         width: 479px;
         height: 59px;
         margin-bottom: 20px;
-        color: rgb(255, 255, 255);
+        color:variables.$text-color;
         font-family: Outfit;
         font-size: 55px;
         font-weight: 700;
@@ -37,7 +38,7 @@
     .newsletter-body__sub-title{        
         width: 433px;
         height: 21px;
-        color: rgb(255, 255, 255);
+        color:variables.$text-color;
         font-family: Public Sans;
         font-size: 18px;
         font-weight: 400;
@@ -64,9 +65,9 @@
         width: 550px;
         height: 60px;
         border-radius: 70px;
-        background: rgb(255, 255, 255);
+        background:variables.$text-color;
         cursor: pointer;        
-        color: rgb(157, 161, 180);
+        color:variables.$back-color;
         font-family: Lato;
         font-size: 16px;
         font-weight: 500;
@@ -79,10 +80,10 @@
         width: 150px;
         height: 60px;
         border-radius: 70px;
-        background: rgb(254, 70, 28);
+        background:variables.$primary-color;
         cursor: pointer;
         font-size: large;
-        color: rgb(255, 255, 255);
+        color:variables.$text-color;
         font-family: Outfit;
         font-size: 16px;
         font-weight: 700;
@@ -92,7 +93,7 @@
     }
 
     .form-newsletter__button:hover{
-        background-color: rgb(242, 112, 38);
+        background-color:variables.$additional-color;
     }
 
     @media (min-width: 320px) and (max-width: 480px) {

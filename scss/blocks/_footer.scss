@@ -1,3 +1,4 @@
+@use "variables";
 .footer__container{
     max-width: 1400px;
     margin: 0 auto;
@@ -8,7 +9,7 @@
         font-size: 12px;
         line-height: 16px; 
         text-align: center;
-        color: rgb(255, 255, 255);
+        color:variables.$text-color;
         margin-top: 155px;
     }
 

@@ -53,8 +53,8 @@
       -ms-flex-align: center;
           align-items: center;
   font-family: Outfit;
-  color: white;
-  font-size: 16px;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
   font-weight: 700;
   line-height: 15px;
   font-family: Outfit;
@@ -245,7 +245,7 @@
   text-transform: capitalize;
 }
 .welcome__container .colortext {
-  color: rgb(255, 92, 0);
+  color: rgb(254, 70, 28);
 }
 .welcome__container .content-welcome-block__text {
   width: 521px;
@@ -303,11 +303,11 @@
   letter-spacing: 0%;
   text-align: center;
   text-transform: capitalize;
-  background-color: rgb(31, 34, 53);
+  background-color: rgb(36, 38, 59);
   cursor: pointer;
 }
 .welcome__container .header-block__button:hover {
-  background-color: #202552;
+  background-color: rgb(25, 27, 58);
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .welcome__container .welcome__container {
@@ -872,7 +872,7 @@
 .portfolio__container .menu__link:hover {
   text-decoration: underline;
   cursor: pointer;
-  color: rgb(90, 116, 231);
+  color: rgb(254, 70, 28);
 }
 .portfolio__container .item-tabs__items {
   display: -webkit-box;
@@ -2455,6 +2455,149 @@
     margin-left: 380px;
   }
 }
+@media (min-width: 481px) and (max-width: 768px) {
+  .contact__container .contact__container {
+    max-width: 750px;
+    margin: 0 auto;
+  }
+  .contact__container .contact__body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 80px;
+    margin-top: 100px;
+  }
+  .contact__container .body-contact__main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 100px;
+    width: 450px;
+    height: auto;
+    margin-left: 60px;
+  }
+  .contact__container .contact__items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+    width: 369px;
+    height: auto;
+  }
+  .contact__container .body-contact__message {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 700px;
+    height: auto;
+  }
+  .contact__container .contact-message__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 30px;
+    margin-top: 24px;
+  }
+  .contact__container .form-contact__input {
+    width: 400px;
+    height: 210px;
+    padding-top: 15px;
+  }
+  .contact__container .body-contact__image img {
+    width: 400px;
+    height: 350px;
+    margin-left: 380px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .contact__container .contact__container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .contact__container .contact__body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 80px;
+    margin-top: 100px;
+  }
+  .contact__container .body-contact__main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 100px;
+    width: 450px;
+    height: auto;
+    margin-left: 60px;
+  }
+  .contact__container .body-contact__message {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 700px;
+    height: auto;
+  }
+  .contact__container .contact-message__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 30px;
+    margin-top: 24px;
+  }
+  .contact__container .form-contact__input {
+    width: 400px;
+    height: 210px;
+    padding-top: 15px;
+  }
+  .contact__container .body-contact__image img {
+    width: 750px;
+    height: 650px;
+    margin-left: 200px;
+  }
+}
+
 .footer__container {
   max-width: 1400px;
   margin: 0 auto;
